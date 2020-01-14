@@ -1,0 +1,18 @@
+h1{
+	text-align : center; 
+	color: red;	
+}
+
+body{
+	background-color : green;
+}
+
+a {
+	text-align: center;
+	color:white;
+}
+
+a: focus {
+	text-align: center;
+	color: blue;
+}

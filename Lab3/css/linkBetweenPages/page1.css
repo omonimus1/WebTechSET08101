@@ -1,0 +1,20 @@
+h1{
+	text-align : center; 
+	color: white;	
+}
+
+body{
+	background-color : blue;
+}
+
+a {
+	padding-left : 30%;
+	font-size : 12px;
+	color: yellow;
+	font-weight : bold;
+}
+
+a: visited {
+	text-align: center;
+	color: red;
+}

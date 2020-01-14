@@ -1,0 +1,13 @@
+a{
+	color : black;
+}
+
+a:visited{
+	color: yellow;
+}
+
+h1{
+	color : blue;
+	text-align : center;
+}
+
