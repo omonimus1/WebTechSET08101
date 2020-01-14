@@ -1,2 +1,2 @@
 # WebTechSET08101
-Repository of the Web Techonoly module  
+Repository for the Web Techonoly module  
