@@ -90,5 +90,75 @@ function myFunction{
 
 Make the function return "Hello"
 ```
-  
+function mmyFunction() {
+  return "Hello";
+}
+document.getElementById("demo").innerHTML = myFunctin();
 ```
+Make the function display "Hello" in the inner HTML of the element with the ID "demo"
+```
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello";
+}
+```
+
+# JS Object
+
+Alert "John" by extracting information from the person Object
+```
+var person =  {
+  firstName : "John",
+  lastName : "Doe"
+};
+alert(person.firstName);
+```
+
+Add the following property and value to the person object: country: Norway.
+```
+var person = {
+  firstName: "John",
+  lastName: "Doe",
+  country : "Norway"
+};
+```
+
+Create an object called person with name = John, age = 50.
+Then, access the object to alert("John is 50")
+```
+var person = {
+  name : "John" , age : 50
+};
+alert(person.name + " is " + person.age);
+```
+# JS Events
+
+
+# JS String
+
+# JS String Methods
+
+# JS array
+
+
+# JS Array Methods
+
+# Js array Sort
+
+
+# JS dates
+
+# JS Math
+
+
+# JS Comparison
+
+
+# JS Conditions
+
+# JS For Loops
+
+# JS while Loops
+
+# JS Breack Loops
+
+# JS HTML DOM
