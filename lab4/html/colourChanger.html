@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> SET08101 - Interacting with the DOM </title>
+        <style type = "text/css">
+            p {color : red}
+        </style>
+    </head>
+    <body>
+        <p> <a href="#" onClick="colourChanger();"> Click Me </a> </p>
+        <h1> OUTPUT </h1>
+        <p id="redParser1">I amzin Red (Maybe)</p>
+
+
+        <script>
+            var current="red";
+            functon colourChanger()
+            {
+                if(current == "red")
+                    current = "blue";
+                else   
+                    current = "red";
+                
+                document.getElementById("redParser1").style.color = current; 
+            }
+        </script>
+    </body>
+</html>
