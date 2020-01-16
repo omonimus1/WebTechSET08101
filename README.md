@@ -1,18 +1,7 @@
 # WebTechSET08101
 Repository created while I was studying WebTech at the Napier Univeristy - Work in Progress
 
-# Structure of the repo:
-
-* Lab 01 : Introduction
-* Lab 02: HTML
-* Lab 03:CSS
-* Lab 04: Javascript
-* Lab 04: Design
-* Lab 05: Deployment
-* Lab 06: Beginning Node.js
-* Lab 07: Beginning server side web-apps with NOde & Express
-* Lab 08: Designing APIs with Rest & JSON
-* Lab 09: DataStores
+## Structure of the repo:
 
 
 
@@ -30,7 +19,7 @@ Repository created while I was studying WebTech at the Napier Univeristy - Work 
 
 # LAb 04 : Javascript
 * Manage / mmodify DOM
-* Solve all tutorial exercises of W3School for Javascript
+* [Javascript W3School Exercises Solutions](/W3JavasriptSolutions/Readme.Md)
 * Create dynamic page
 * Modify style of an HTML node using Javascript Events
 * Show an HTML element just if a determinated events happens using always Javascript
