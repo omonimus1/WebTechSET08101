@@ -130,10 +130,44 @@ var person = {
 };
 alert(person.name + " is " + person.age);
 ```
+
 # JS Events
 
+The <button> element should do something when someone clicks on it. Try to fix it!
+
+```
+<button onClick="alert('Hello')">Click Me. </button>
+```
+When the button is clicked, the function "myFunction" should be executed.
+```
+<button onClick="myFunction()"> Click me. </button>
+```
+The <div> element should turn red when someone moves the mouse over it.
+```
+<div onmouseover = "this.style.backgrundColor='red'"> myDiv. </div>
+```
 
 # JS String
+Use the length property to alert the length of txt.
+
+```
+var txt = "Hello World!";
+var x = txt.length;
+alert(x);
+```
+Use escape characters to alert We are "Vikings".
+```
+var txt = "
+We are \"Vikings\"";
+alert(txt);
+```
+
+Conceteate the two string to alert "Hello World"!
+```
+var str1 = "Hello ";
+var str2 = "World";
+alert(str1 + str2);
+```
 
 # JS String Methods
 
