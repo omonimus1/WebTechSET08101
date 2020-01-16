@@ -1,4 +1,4 @@
-# Solution of the W3School Javascript Solutions
+# Solution of the W3School Javascript Exercises
 
 # JS Variables
 
@@ -133,7 +133,7 @@ alert(person.name + " is " + person.age);
 
 # JS Events
 
-The <button> element should do something when someone clicks on it. Try to fix it!
+The ```<button>``` element should do something when someone clicks on it. Try to fix it!
 
 ```
 <button onClick="alert('Hello')">Click Me. </button>
@@ -170,11 +170,64 @@ alert(str1 + str2);
 ```
 
 # JS String Methods
+Find the position of the character h in the string txt.
+```
+var txt = "abcdefghijklm";
+var pos = txt.indexOf('h');
+```
 
+Use the slice method to return the word "bananas".
+```
+var txt = I can eat bananas all day";
+var x = txt.slice(10,17);
+```
+Use the correct String method to replace the word "Hello" with the word "Welcome".
+```
+var txt = "Hello World";
+txt = txt.replace("Hello" , "Welcome");
+```
+Convert the value of txt to upper case.
+```
+var txt = "Hello World";
+txt = txt.toUpperCase();
+```
+Convert the value of txt to lower case.
+```
+var txt = "Hello World";
+txt =  txt.toLowerCase();
+```
 # JS array
+Get the value "Volvo" from the cars array.
+```
+var cars = ["Saab" , "Volvo" , "BMW"];
+var x = cars[1];
+```
+Change the first item of cars to "Ford".
+```
+var cars = ["Volvo", "Jeep", "Mercedes"];
+cars[0] = "Ford";
+```
 
+Alert the number of items in an array, using the correct Array method.
+```
+var cars = ["Volvo", "Jeep", "Mercedes"];
+alert(cars.length );
+```
 
 # JS Array Methods
+Use the correct Array method to remove the last item of the fruits array.
+```
+
+```
+
+
+```
+
+```
+
+```
+
+```
 
 # Js array Sort
 
