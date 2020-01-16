@@ -5,19 +5,19 @@ Repository created while I was studying WebTech at the Napier Univeristy - Work 
 
 
 
-# Lab  1 : Introduction
+### Lab  1 : Introduction
 * Structure of HTML file
 * Understand how to use the Developer Tools provided by Google
 
 
-# Lab 02 : HTML
+### Lab 02 : HTML
 * Create HTML pages that contains text , links and practise with the other HTML nodes.  
 
-# Lab 03 : CSS
+### Lab 03 : CSS
 
 * Add simple css to the html files created in the Lab2
 
-# LAb 04 : Javascript
+### LAb 04 : Javascript
 * Manage / mmodify DOM
 * [Javascript W3School Exercises Solutions](/Lab4/W3JavasriptSolutions/Readme.Md)
 * Create dynamic page
