@@ -19,7 +19,7 @@ Repository created while I was studying WebTech at the Napier Univeristy - Work 
 
 ### LAb 04 : Javascript
 * Manage / mmodify DOM
-* [Javascript W3School Exercises Solutions](https://github.com/omonimus1/WebTechSET08101/blob/master/lab4/W3JavasriptSolutions/Readme.Md)
+* [Javascript W3School Exercises Solutions](https://github.com/omonimus1/BeginnerJSTutorial-/blob/master/Readme.Md)
 * Create dynamic page
 * Modify style of an HTML node using Javascript Events
 * Show an HTML element just if a determinated events happens using always Javascript
