@@ -24,3 +24,6 @@ Repository created while I was studying WebTech at the Napier Univeristy - Work 
 * Modify style of an HTML node using Javascript Events
 * Show an HTML element just if a determinated events happens using always Javascript
 * Use javascript in html file - Create JS function - Use functions present in external JS file
+
+### Coursework / Assessment 1
+* Create a html page that allows to the user to enter some text and encipher the text using the rot13 cypher
