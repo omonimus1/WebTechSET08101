@@ -46,3 +46,9 @@ function show_encoded_string(encoded_string)
     var text = document.createTextNode(encoded_string);
     paragraph.appendChild(text);
 }
+
+
+function reset()
+{
+    document.getElementById('paragraph1').innerHTML = ' ';
+}
