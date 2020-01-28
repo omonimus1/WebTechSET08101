@@ -34,7 +34,6 @@ function myFunction()
             encoded_string += single_character;
         }
     }
-    alert(encoded_string);
     show_encoded_string(encoded_string);
 }
 
@@ -50,5 +49,7 @@ function show_encoded_string(encoded_string)
 
 function reset()
 {
+
+    document.getElementById("textarea1").value = '';
     document.getElementById('paragraph1').innerHTML = ' ';
 }
