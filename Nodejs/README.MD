@@ -1,4 +1,5 @@
-## Nodejs
+# Nodejs
+##### Notes got from w3schools.com/nodejs
 
 This notes had been created reading the Book: Beginning [Node.js](../Readings/BeginningNode.js.pdf), available in our Reading section.
 
@@ -44,6 +45,34 @@ http.createServer(function (req , res)
     res.end();
 }).listen(8080);
 ```
+
+## Node.js as a File Server
+* Node.js file system module allows us to work with the fule system on our machine. 
+```
+// fs: built-in Node.js module to manage the file system.
+var fs = require('fs')
+```
+After importing the fs module, we can: create , read , update, rename or delete a file. 
+```
+var http = require('http');
+var fs = require('fs');
+http.createServer(function (eq , res)
+{
+	fs.readFile('fileTest.html' , function(err , data)
+	{
+		res.writeHead(200  , {'Content-Type' : 'text/html'});
+		res.write(data);
+		res.end();
+	});
+}).listen(8080);
+```
+
+## fs.appendFile()
+
+
+## fs.open()
+
+## fs.writeFile()
 
 ## Buit-in HTTP Module
 * HTTP module   
