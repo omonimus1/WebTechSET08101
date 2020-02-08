@@ -13,6 +13,11 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
+
+$(document).ready(function() {
+  $('select').material_select();
+});
+
 /*! cash-dom 1.3.5, https://github.com/kenwheeler/cash @license MIT */
 (function (factory) {
   window.cash = factory();
@@ -465,6 +470,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }).replace(whiteSpace, "");
     };
   }();
+
 
   var getPrefixedProp = function () {
     var cache = {},

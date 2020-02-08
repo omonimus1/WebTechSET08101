@@ -3,73 +3,105 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  
   <title>My Own adventure</title>
 
   <!-- TEMPLATE CREATED BY Materialzie Design-->
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="src/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="src/css/homepage.css" type="text/css" rel="stylesheet"/>
   <link href="src/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
    <!-- Footer icons definitive-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
   <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">MyOwnAdventure</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="https://github.com/omonimus1/WebTechSET08101/tree/master/Coursework2019_2020/coursework1" target="_blank">Source</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="https://github.com/omonimus1/WebTechSET08101/tree/master/Coursework2019_2020/coursework1" target="_blank">Source</a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-  <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-      <p>CENTER OF THE PAGE</p>
-    </div>
-  </div>
+
+  
 
 
   <div class="container">
     <div class="section">
-
+      <div class="row">
+        <div class="input-field col s12">
+          <select class="browser-default">
+            <option value="" disabled selected>Choose your option</option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+          </select>
+        </div>
+      </div>
+      <br>
       <!--   Icon Section   -->
       <div class="row">
-        <p>
-            Second part of the page - dedicated to the boards
-        </p>
-      </div>
-
+        <div class="col s12 m6">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">Card Title</span>
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Continue to read</a>
+            </div>
+          </div>
+        </div><!--End card-->
+        <div class="col s12 m6">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">Card Title</span>
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Continue to read</a>
+              <p>Orror</p>
+            </div>
+          </div>
+        </div><!--End card-->
+      </div><!--End of div class="row"-->
     </div>
     <br><br>
   </div>
 
-  <footer class="page-footer orange">
+  <footer class="page-footer black">
     <div class="container">
       <div class="row">
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a href = 'https://www.linkedin.com/in/davidepollicino7/' target ='_blank'><i id ='footer_icon' class ='fa fa-linkedin darken-4' title ='Linkedln' aria-hidden='true' ></i></a></li>
-            <li><a href = 'mailto:davidepollicino2015@gmail.com?Subject=Contact%20from%website' target='_top'><i id='footer_icon' class='fa fa-envelope' title='Email' aria-hidden='true'></i></a></li>
-           <li><a href = 'https://github.com/omonimus1' target = '_blank'> <i id ='footer_icon' class ='fa fa-github' title ='Github' aria-hidden = 'true' ></i> </a></li> 
-        </ul>
+        <div class="col s12"> <!--Split the footer Grid in 12 columns-->
+          <div class="col s6">
+            <h5 class="white-text">Connect</h5>
+            <a href = 'https://www.linkedin.com/in/davidepollicino7/' target ='_blank'><i id ='footer_icon' class ='fa fa-linkedin fa-2x' title ='Linkedln' aria-hidden='true' ></i></a>
+            <a href = 'mailto:davidepollicino2015@gmail.com?Subject=Contact%20from%website' target='_top'><i id='footer_icon' class='fa fa-envelope fa-2x' title='Email' aria-hidden='true'></i></a>
+            <a href = 'https://github.com/omonimus1' target = '_blank'> <i id ='footer_icon' class ='fa fa-github fa-2x' title ='Github' aria-hidden = 'true' ></i> </a>
+          </div>
+          <div class="col s6">
+            <h5 class="white-text">Developer and Copyright</h5>
+           <p>Copyright © 2020 - Present , <a class="blue-text text-lighten-3" href="http://davidepollicino.com">Davide Pollicino </a></p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      University Coursework Made by <a class="orange-text text-lighten-3" href="http://davidepollicino.com">Davide Pollicino </a>
-      - Template created by Materialize
-      </div>
-    </div>
+    </div>  
   </footer>
 
 
   <!--  Scripts-->
+  <script src="src/js/select_story.js"></script>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="src/js/materialize.js"></script>
   <script src="src/js/init.js"></script>
