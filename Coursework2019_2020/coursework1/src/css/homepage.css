@@ -1,3 +1,7 @@
 #footer_icon{
   padding-right: 1rem;
 }
+
+.checked {
+  color: orange;
+}
