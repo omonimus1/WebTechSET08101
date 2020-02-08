@@ -9,3 +9,11 @@ function show_card()
   })
 
 }
+
+function show_selected() {
+    var s = document.getElementsByName('parameters')[0];
+var text = s.options[s.selectedIndex].text;
+
+    alert(text);
+}
+
