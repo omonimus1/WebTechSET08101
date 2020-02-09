@@ -4,12 +4,20 @@ function show_card()
     var text = s.options[s.selectedIndex].text;
     var class_access_token =".";
     var class_name = class_access_token.concat(text);
+
+    if (class_name == ".Fantasy")
     var app3 = new Vue({
-        el: class_name,
+        el: ".Horror",
         data: {
             seen: false
         }
-  })
+    })
+    var app4 = new Vue({
+        el: ".Childhood",
+        data: {
+            seen: false
+        }
+    })
 
 }
 
