@@ -37,7 +37,7 @@
     <div class="section">
       <div class="row">
         <div class="input-field col s12">
-          <select class="browser-default" id="id_of_select" name = "parameters" onchange="show_selected(this.value)">
+          <select class="browser-default" id="id_of_select" name = "parameters" onchange="show_card(this.value)">
             <option value="" disabled selected>Filter Story by category</option> 
             <option value="1">Horror</option>
             <option value="2">Fantasy</option>
@@ -98,7 +98,7 @@
 
 
               <div class="row">
-                <div class="app-3" v-if="seen">
+                <div class="Fantasy" v-if="seen">
                   <div class="col s12 m6">
                     <div class="card blue-grey darken-1">
                       <div class="card-content white-text">
