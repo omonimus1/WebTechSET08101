@@ -15,10 +15,11 @@ potential solutions, libraries, or APIs that might assist you).
 * https://codepen.io/jamesbarnett/pen/vlpkh
 
 3. A list of features and some discussion of why each feature is included.
-* Show all the stories: by default, all the stories available will be shown in the hopepage of the website. 
+ 
 * Select a specific category of stories 
 * Color inversion:  Most of the users nowadays take care of their eyes. Most the users uses night screen mode, called also night reader mode in 
-MIcrosoft Windows environment. 
+  MIcrosoft Windows environment. 
+* Rating of the story: 
 
 
 4. A navigation tree and some discussion of how you plan to organise your site.
