@@ -1,5 +1,16 @@
+body {
+    text-align : center;
+}
+
+p {
+    text-align: left;
+}
+
+
+
 article {
-    display: block;
+    padding-left : 20%;
+    padding-right : 15%;
     text-align:center;
 }
 
