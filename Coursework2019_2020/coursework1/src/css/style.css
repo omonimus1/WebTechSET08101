@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Custom Stylesheet */
 /**
  * Use this file to override Materialize files so you can update
@@ -18,4 +19,19 @@ iframe {
     margin-left: auto; /* Automatic margin from left */
     margin-right: auto; /* Automatic margin from right */
 
+=======
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+>>>>>>> b4bd095305e491d4315ca1033bb8491cd60f8601
 }
