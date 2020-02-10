@@ -1,7 +1,10 @@
-body {
+article {
     display: block;
     text-align:center;
 }
 
+li {
+    font-weight: bold;
+}
 
 

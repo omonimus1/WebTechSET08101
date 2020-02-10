@@ -12,3 +12,10 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+iframe {
+    align-content : center;
+    margin-left: auto; /* Automatic margin from left */
+    margin-right: auto; /* Automatic margin from right */
+
+}

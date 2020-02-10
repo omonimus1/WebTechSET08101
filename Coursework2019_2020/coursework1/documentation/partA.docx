@@ -13,6 +13,13 @@ potential solutions, libraries, or APIs that might assist you).
 * https://infinite-story.com/
 * JS Slider : https://www.w3schools.com/howto/howto_js_rangeslider.asp
 * https://codepen.io/jamesbarnett/pen/vlpkh
+* Fix materialize footer: https://stackoverflow.com/questions/29703544/materialize-css-sticky-footer
+	MATERIALIZE requires the following structure:	
+		<body>
+			<header></header>
+			<main></main>
+			<footer></footer>
+		</body>
 
 3. A list of features and some discussion of why each feature is included.
  
