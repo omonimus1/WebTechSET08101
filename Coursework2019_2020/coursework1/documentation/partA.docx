@@ -6,6 +6,9 @@ contribute towards the page limit) and which includes the following:
 context for your reader to understand what you are trying to do. If you have a
 draft of your story or storyline then you should include it here.
 
+
+
+
 2. A summary of any background research you have done with a description of how
 this has contributed to your project (perhaps through better understanding of
 potential solutions, libraries, or APIs that might assist you).
@@ -23,18 +26,24 @@ potential solutions, libraries, or APIs that might assist you).
 
 3. A list of features and some discussion of why each feature is included.
  
-* Select a specific category of stories 
-* Color inversion:  Most of the users nowadays take care of their eyes. Most the users uses night screen mode, called also night reader mode in 
-  MIcrosoft Windows environment. 
-* Rating of the story: 
+*  Select a specific category of stories 
+*  Color inversion:  Most of the users nowadays take care of their eyes. Most the users uses night screen mode, called also night reader mode in 
+   MIcrosoft Windows environment. 
+*  Contanct form : Give feedback about the website 
+*  Suggest a story : contact form and suggest a story must be equals, the user must be able to upload a file if necessary. 
 
 
 4. A navigation tree and some discussion of how you plan to organise your site.
+
+
 
 5. A sketch of an initial user interface for your system and some commentary on
 the motivation for your design, i.e. how does your design address the features
 you’ve listed. NB. Any designs can be hand-drawn and scanned/photographed for
 inclusion in your report.
+
+
+
 
 6. As appropriate: any additional sections that you deem fit to describe your
 project. For example, if you have decided to implement a particular feature as
