@@ -11,36 +11,78 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="../../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="../../css/homepage.css" type="text/css" rel="stylesheet" />
+    <link href="../../css/headerAndFooter.css" type="text/css" rel="stylesheet" />
     <link href="../../css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="../../css/story_page.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <!-- Font Awesome Icon Library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <article>
-        <h1>Pollicino intro</h1>
-        <p>
-            There was once a poor countryman who used to sit in the chimney-corner all evening
-            and poke the fire, while his wife sat at her spinning-wheel. And he used to say,
-            "How dull it is without any children about us; our house is so quiet, and other people's
-            houses so noisy and merry!" - "Yes," answered his wife, and sighed, "if we could only have one,
-            and that one ever so little, no bigger than my thumb, how happy I should be! It would, indeed,
-            be having our heart's desire."
-        </p>
-    </article>
+    <header>
+        <nav class="light-blue lighten-1" role="navigation">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="#" class="brand-logo">MyOwnAdventure</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#footer_id">About Me</a></li>
+                    <li><a href="https://github.com/omonimus1/WebTechSET08101/tree/master/Coursework2019_2020/coursework1" target="_blank">Source</a></li>
+                    <li> <a href="src/html/contactMe.html">Contact Me</a> </li>
+                </ul>
 
-    <ul>
-        <li><a href="theyGotChild.html">They got a child</a></li>
-        <li> <a href="pollicinoWasNeverBorn.html">They will never get a child</a></li>
-        <li> <a href="https://www.grimmstories.com/language.php?grimm=037&l=en&r=it">Resouce</a></li>
-        <li><a href="video.html">See video of original video  </a></li>
+                <ul id="nav-mobile" class="sidenav">
+                    <li><a href="#footer_id">About Me</a></li>
+                    <li><a href="https://github.com/omonimus1/WebTechSET08101/tree/master/Coursework2019_2020/coursework1" target="_blank">Source</a></li>
+                    <li> <a href="src/html/contactMe.html">Contact Me</a></li>
+                </ul>
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+    </header>
 
-    </ul>
+    <main>
+        <article>
+            <h1>Pollicino intro</h1>
+            <p>
+                There was once a poor countryman who used to sit in the chimney-corner all evening
+                and poke the fire, while his wife sat at her spinning-wheel. And he used to say,
+                "How dull it is without any children about us; our house is so quiet, and other people's
+                houses so noisy and merry!" - "Yes," answered his wife, and sighed, "if we could only have one,
+                and that one ever so little, no bigger than my thumb, how happy I should be! It would, indeed,
+                be having our heart's desire."
+            </p>
+        </article>
 
-        <script src="../../js/select_story.js"></script>
-        <script src="../../js/video_story"></script>
-        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script src="../../js/materialize.js"></script>
-        <script src="./../js/init.js"></script>
+        <ul>
+            <li><a href="theyGotChild.html">They got a child</a></li>
+            <li> <a href="pollicinoWasNeverBorn.html">They will never get a child</a></li>
+            <li> <a href="https://www.grimmstories.com/language.php?grimm=037&l=en&r=it">Resouce</a></li>
+            <li><a href="video.html">See video</a></li>
+
+        </ul>
+
+    </main>
+
+   <!--FOOTER-->
+    <footer class="page-footer black" id="footer_id">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <!--Split the footer Grid in 12 columns-->
+                    <div class="col s6">
+                        <h5 class="white-text">Connect</h5>
+                        <a href='https://www.linkedin.com/in/davidepollicino7/' target='_blank'><i id='footer_icon' class='fa fa-linkedin fa-2x' title='Linkedln' aria-hidden='true'></i></a>
+                        <a href='mailto:davidepollicino2015@gmail.com?Subject=Contact%20from%website' target='_top'><i id='footer_icon' class='fa fa-envelope fa-2x' title='Email' aria-hidden='true'></i></a>
+                        <a href='https://github.com/omonimus1' target='_blank'> <i id='footer_icon' class='fa fa-github fa-2x' title='Github' aria-hidden='true'></i> </a>
+                    </div>
+                    <div class="col s6">
+                        <h5 class="white-text">Developer and Copyright</h5>
+                        <p>Copyright © 2020 - Present , <a class="blue-text text-lighten-3" href="http://davidepollicino.com">Davide Pollicino </a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="../../js/materialize.js"></script>
+    <script src="../../js/init.js"></script>
 </body>
 </html>
