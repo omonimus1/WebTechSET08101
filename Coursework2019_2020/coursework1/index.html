@@ -19,7 +19,7 @@
 </head>
 <body>
     <header>
-        <nav class="light-blue lighten-1" role="navigation">
+        <nav class="indigo accent-4" role="navigation">
             <div class="nav-wrapper container">
                 <a id="logo-container" href="#" class="brand-logo">MyOwnAdventure</a>
                 <ul class="right hide-on-med-and-down">
@@ -57,110 +57,166 @@
         </div> <!--End div select-->
            
         <!--Story cards section -->  
-        <div class="row">
-            <div class="Fantasy" v-if="seen">
-                <div class="col s12 m6">
-                    <div class="card blue-grey darken-1">
-                        <div class="card-content white-text">
-                            <span class="card-title">Card Title</span>
-                            <p>
-                                I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.
-                            </p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">Continue to read</a>
-                            <p>Fantasy</p>
-                            <div id="rating">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
+        <div class="Fantasy">
+            <div class="row">
+                <div class="Fantasy" v-if="seen">
+                    <div class="col s12 m6">
+                        <div class="card deep-purple accent-3">
+                            <div class="card-content white-text">
+                                <span class="card-title">Card Title</span>
+                                <p>
+                                    I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.
+                                </p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!--End card-->
-
-            <div class="Fantasy" v-if="seen">
-                <div class="col s12 m6">
-                    <div class="card blue-grey darken-1">
-                        <div class="card-content white-text">
-                            <span class="card-title"><a href="src/html/pollicino/pollicinoIntro.html">Pollicino</a></span>
-                            <p>
-                                I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.
-                            </p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">Continue to read</a>
-                            <p>Fantasy</p>
-                            <div id="rating">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
+                            <div class="card-action">
+                                <a href="#">Continue to read</a>
+                                <p>Fantasy</p>
+                                <div id="rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div><!--End card-->
-            </div><!--End of -->
+
+                <div class="Fantasy" v-if="seen">
+                    <div class="col s12 m6">
+                        <div class="card deep-purple accent-3">
+                            <div class="card-content white-text">
+                                <span class="card-title"><a href="src/html/pollicino/pollicinoIntro.html">Pollicino</a></span>
+                                <p>
+                                    I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.
+                                </p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">Continue to read</a>
+                                <p>Fantasy</p>
+                                <div id="rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--End card-->
+                </div><!--End of -->
+            </div>
         </div>
 
-        <div class="row">
-            <div class="Childhood" v-if="seen">
-                <div class="col s12 m6">
-                    <div class="card blue-grey darken-1">
-                        <div class="card-content white-text">
-                            <span class="card-title">Card Title</span>
-                            <p>
-                                I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.
-                            </p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">Continue to read</a>
-                            <p>Childhood</p>
-                            <div id="rating">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
+        <div class="Childhood">
+            <div class="row">
+                <div class="Childhood" v-if="seen">
+                    <div class="col s12 m6">
+                        <div class="card blue">
+                            <div class="card-content white-text">
+                                <span class="card-title">Card Title</span>
+                                <p>
+                                    I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.
+                                </p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">Continue to read</a>
+                                <p>Childhood</p>
+                                <div id="rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div><!--End card-->
-
-
-            <div class="Horror" v-if="seen">
-                <div class="col s12 m6">
-                    <div class="card blue-grey darken-1">
-                        <div class="card-content white-text">
-                            <span class="card-title">Card Title</span>
-                            <p>
-                                I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.
-                            </p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">Continue to read</a>
-                            <p>Horror</p>
-                            <div id="rating">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
+                </div><!--End card-->
+                <div class="Childhood" v-if="seen">
+                    <div class="col s12 m6">
+                        <div class="card blue">
+                            <div class="card-content white-text">
+                                <span class="card-title">Card Title</span>
+                                <p>
+                                    I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.
+                                </p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">Continue to read</a>
+                                <p>Childhood</p>
+                                <div id="rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div><!--End card-->
             </div>
-         </div><!--End of div class="row"-->
+        </div>
+
+        <div class="Horror">
+            <div class="row">
+                <div class="Horror" v-if="seen">
+                    <div class="col s12 m6">
+                        <div class="card red">
+                            <div class="card-content white-text">
+                                <span class="card-title">Card Title</span>
+                                <p>
+                                    I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.
+                                </p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">Continue to read</a>
+                                <p>Horror</p>
+                                <div id="rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--End card-->
+                    <div class="Horror" v-if="seen">
+                        <div class="col s12 m6">
+                            <div class="card red">
+                                <div class="card-content white-text">
+                                    <span class="card-title">Card Title</span>
+                                    <p>
+                                        I am a very simple card. I am good at containing small bits of information.
+                                        I am convenient because I require little markup to use effectively.
+                                    </p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">Continue to read</a>
+                                    <p>Horror</p>
+                                    <div id="rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--End card-->
+                </div>
+            </div>
+        </div>
+         
 </main>
   
 
@@ -185,11 +241,8 @@
  </footer>
 
 
-  <!--  Scripts-->
-
   <!-- Include vue.js Framework -->
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
- 
   <script src="src/js/select_story.js"></script>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="src/js/materialize.js"></script>

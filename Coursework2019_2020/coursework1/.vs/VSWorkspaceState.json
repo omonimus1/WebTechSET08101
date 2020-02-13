@@ -3,7 +3,8 @@
     "",
     "\\src",
     "\\src\\html",
-    "\\src\\html\\pollicino"
+    "\\src\\html\\pollicino",
+    "\\src\\js"
   ],
   "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
