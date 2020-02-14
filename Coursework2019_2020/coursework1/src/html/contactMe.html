@@ -43,20 +43,20 @@
     <main>
         <div class="row">
             <form class="col s12">
-                 <div class="row">
-                     <div class="input-field col s4">
+                <div class="row">
+                    <div class="input-field col s4">
                         <i class="material-icons prefix">account_circle</i>
                         <input id="full_name" type="text" class="validate">
                         <label for="full_name">Full Name</label>
-                     </div>
-                
+                    </div>
+
                     <div class="input-field col s4">
                         <i class="material-icons prefix">email</i>
                         <input id="email" type="email" class="validate">
                         <label for="email">Email</label>
                         <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
                     </div>
-                 </div>   
+                </div>
                 <div class="row">
                     <div class="input-field col s4">
                         <i class="material-icons prefix">message</i>
@@ -66,31 +66,30 @@
                     <div class="row">
                         <div class="input-field col s4">
                             <i class="material-icons prefix">mode_edit</i>
-                          <textarea id="message" class="materialize-textarea"></textarea>
-                          <label for="message">Message</label>
+                            <textarea id="message" class="materialize-textarea"></textarea>
+                            <label for="message">Message</label>
                         </div>
-                      </div>
-                 </div>
+                    </div>
+                </div>
 
-                 <div class="row">
+                <div class="row">
                     <div class="file-field input-field col s5">
                         <div class="btn light-blue lighten-1">
-                          <span>File</span>
-                          <input type="file" multiple>
+                            <span>File</span>
+                            <input type="file" multiple>
                         </div>
                         <div class="file-path-wrapper">
-                          <input class="file-path validate" type="text" placeholder="Upload one or more files">
+                            <input class="file-path validate" type="text" placeholder="Upload one or more files">
                         </div>
-                      </div>
+                    </div>
 
-                      <a class="waves-effect waves-light btn light-blue lighten-1"><i class="material-icons left">send</i>Send</a>
-                      <a class="waves-effect waves-light btn light-blue lighten-1" onclick="erase()"><i class="material-icons left">content_cut</i>Clear</a>
-                 </div>
-
+                    <a class="waves-effect waves-light btn light-blue lighten-1" onclick="send()"><i class="material-icons left">send</i>Send</a>
+                    <a class="waves-effect waves-light btn light-blue lighten-1" onclick="erase()"><i class="material-icons left">content_cut</i>Clear</a>
+                </div>
             </form>
-          </div>
+        </div>
     </main>
-  
+
 
     <footer class="page-footer black" id="footer_id">
         <div class="container">
@@ -109,12 +108,11 @@
                     </div>
                 </div>
             </div>
-        </div>  
+        </div>
     </footer>
 
 
     <!--  Scripts-->
-
     <!-- Include vue.js Framework -->
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="../js/select_story.js"></script>
@@ -123,5 +121,10 @@
     <script src="../js/materialize.js"></script>
     <script src="../js/init.js"></script>
 
-    </body>
+    <!-- SCRIPT FOR email-->
+    <script src="https://smtpjs.com/v3/smtp.js">
+           <script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+    </script>
+
+</body>
 </html>
