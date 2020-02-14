@@ -46,8 +46,8 @@
                  <div class="row">
                      <div class="input-field col s4">
                         <i class="material-icons prefix">account_circle</i>
-                        <input id="icon_prefix" type="text" class="validate">
-                        <label for="icon_prefix">Full Name</label>
+                        <input id="full_name" type="text" class="validate">
+                        <label for="full_name">Full Name</label>
                      </div>
                 
                     <div class="input-field col s4">
@@ -60,14 +60,14 @@
                 <div class="row">
                     <div class="input-field col s4">
                         <i class="material-icons prefix">message</i>
-                        <textarea id="textarea1" class="materialize-textarea"></textarea>
-                        <label for="textarea1">Object</label>
+                        <textarea id="object" class="materialize-textarea"></textarea>
+                        <label for="object">Object</label>
                     </div>
                     <div class="row">
                         <div class="input-field col s4">
                             <i class="material-icons prefix">mode_edit</i>
-                          <textarea id="textarea1" class="materialize-textarea"></textarea>
-                          <label for="textarea1">Message</label>
+                          <textarea id="message" class="materialize-textarea"></textarea>
+                          <label for="message">Message</label>
                         </div>
                       </div>
                  </div>
@@ -84,7 +84,7 @@
                       </div>
 
                       <a class="waves-effect waves-light btn light-blue lighten-1"><i class="material-icons left">send</i>Send</a>
-                      <a class="waves-effect waves-light btn light-blue lighten-1"><i class="material-icons left">content_cut</i>Clear</a>
+                      <a class="waves-effect waves-light btn light-blue lighten-1" onclick="erase()"><i class="material-icons left">content_cut</i>Clear</a>
                  </div>
 
             </form>
@@ -117,8 +117,8 @@
 
     <!-- Include vue.js Framework -->
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-
     <script src="../js/select_story.js"></script>
+    <script src="../js/contactMe.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="../js/materialize.js"></script>
     <script src="../js/init.js"></script>
